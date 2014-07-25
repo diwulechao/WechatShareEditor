@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WechatShareEditor</string>
+    <string name="title">Title</string>
+    <string name="hint">Type in...</string>
+    <string name="img_url">Image Url</string>
+    <string name="src_usr">Source Username</string>
+    <string name="src_dusr">Source Display Username</string>
+    <string name="upload_link">Upload Link</string>
+    <string name="upload_width">Upload Width</string>
+    <string name="upload_height">Upload Height</string>
+    <string name="upload_source">Upload Source</string>
+    <string name="confirm">Confirm</string>
+
+</resources>
