@@ -3,7 +3,7 @@
 
     <string name="app_name">WechatShareEditor</string>
     <string name="title">Title</string>
-    <string name="hint">Type in...</string>
+    <string name="hint">Leave blank no changes</string>
     <string name="img_url">Image Url</string>
     <string name="src_usr">Source Username</string>
     <string name="src_dusr">Source Display Username</string>
@@ -11,6 +11,9 @@
     <string name="upload_width">Upload Width</string>
     <string name="upload_height">Upload Height</string>
     <string name="upload_source">Upload Source</string>
-    <string name="confirm">Confirm</string>
-
+    <string name="confirm">Save</string>
+	<string name="toast">Saved. Please enter Wechat to actually repost a link, the module won\'t post it for you.</string>
+    <string name="launch_wechat">Launch Wechat</string>
+	<string name="feedback">--By Lechao Diwu\nFeedback: diwulechao@163.com</string>
+    
 </resources>

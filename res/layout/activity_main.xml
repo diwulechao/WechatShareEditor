@@ -164,12 +164,31 @@
                     android:textSize="@dimen/edit_text_size" />
             </LinearLayout>
 
-            <Button
-                android:id="@+id/confirm"
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/confirm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/confirm"
+                    android:textSize="@dimen/edit_text_size" />
+
+                <Button
+                    android:id="@+id/launch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/launch_wechat"
+                    android:textSize="@dimen/edit_text_size" />
+            </LinearLayout>
+
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/edit_text_size"
-                android:text="@string/confirm" />
+                android:text="@string/feedback"
+                android:textSize="@dimen/edit_text_size" />
         </LinearLayout>
     </ScrollView>
 

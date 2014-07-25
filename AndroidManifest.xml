@@ -28,10 +28,13 @@
             android:value="true" />
         <meta-data
             android:name="xposeddescription"
-            android:value="Wechat Share Editor is a module for Wechat that allows you to change the sharing content or even create a custom share in Wechat. This includes share link, share logo link, share title and others..."  />
+            android:value="Wechat Share Editor is a module for Wechat that allows you to change the sharing content or even create a custom share in Wechat. This includes share link, share logo link, share title and others..." />
         <meta-data
             android:name="xposedminversion"
             android:value="30" />
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
 </manifest>
