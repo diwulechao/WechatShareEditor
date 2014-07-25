@@ -12,8 +12,9 @@
     <string name="upload_height">Upload Height</string>
     <string name="upload_source">Upload Source</string>
     <string name="confirm">Save</string>
-	<string name="toast">Saved. Please enter Wechat to actually repost a link, the module won\'t post it for you.</string>
+    <string name="toast">Saved. Please enter Wechat to actually repost a link, the module won\'t post it for you.</string>
     <string name="launch_wechat">Launch Wechat</string>
-	<string name="feedback">--By Lechao Diwu\nFeedback: diwulechao@163.com</string>
-    
+    <string name="feedback">--By Lechao Diwu\nFeedback: diwulechao@163.com</string>
+    <string name="wechatnotfound">Wechat can not be found!</string>
+
 </resources>

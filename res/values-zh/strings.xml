@@ -15,5 +15,6 @@
     <string name="toast">已保存，请进入微信进行实际转发操作，程序不会直接帮你发送</string>
 	<string name="launch_wechat">启动微信</string>
 	<string name="feedback">--作者:Lechao Diwu 仅供学习参考\n意见反馈: diwulechao@163.com</string>
-    
+	<string name="wechatnotfound">无法启动微信，请检查是否安装</string>
+	
 </resources>

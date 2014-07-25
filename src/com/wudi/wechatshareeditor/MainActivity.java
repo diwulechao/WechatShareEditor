@@ -87,10 +87,17 @@ public class MainActivity extends Activity {
 
 			@Override
 			public void onClick(View arg0) {
-				FlurryAgent.logEvent("Launch_wechat");
 				Intent LaunchIntent = getPackageManager()
 						.getLaunchIntentForPackage("com.tencent.mm");
-				startActivity(LaunchIntent);
+				if (LaunchIntent == null) {
+					FlurryAgent.logEvent("Launch_fail");
+					Toast.makeText(context, R.string.wechatnotfound, Toast.LENGTH_LONG)
+							.show();
+				} else {
+					FlurryAgent.logEvent("Launch_wechat");
+					startActivity(LaunchIntent);
+				}
+
 			}
 
 		});
