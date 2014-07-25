@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">朋友圈转发修改器</string>
+    <string name="title">标题</string>
+    <string name="hint">请输入...如无需更改请留空</string>
+    <string name="img_url">图片链接</string>
+    <string name="src_usr">来源用户名</string>
+    <string name="src_dusr">来源显示名</string>
+    <string name="upload_link">内容链接</string>
+    <string name="upload_width">图片宽度</string>
+    <string name="upload_height">图片高度</string>
+    <string name="upload_source">来源</string>
+    <string name="confirm">保存</string>
+    <string name="toast">已保存，请进入微信进行实际转发操作，程序不会直接帮你发送</string>
+	<string name="launch_wechat">启动微信</string>
+	<string name="feedback">--作者:Lechao Diwu 仅供学习参考\n意见反馈: diwulechao@163.com</string>
+    
+</resources>
