@@ -16,5 +16,7 @@
     <string name="launch_wechat">Launch Wechat</string>
     <string name="feedback">--By Lechao Diwu\nFeedback: diwulechao@163.com</string>
     <string name="wechatnotfound">Wechat can not be found!</string>
-
+    <string name="location_latitude">Latitude(real)</string>
+    <string name="location_longitude">Longitude(real)</string>
+	<string name="location_hint">Keep GPS close when publish</string>
 </resources>

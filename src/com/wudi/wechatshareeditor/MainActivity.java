@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
 	private Context context;
 	private EditText titleEditText, imgUrlEditText, sourceNameEditText,
 			sourceDisplayNameEditText, uploadLinkEditText, uploadWidthEditText,
-			uploadHeightEditText, uploadSouceEditText;
+			uploadHeightEditText, uploadSouceEditText, laText, loText;
 	public String title, image_url, source_display_username, source_username,
 			upload_height, upload_link, upload_source, upload_width;
 	private Button confirm, launch;
@@ -39,6 +39,8 @@ public class MainActivity extends Activity {
 		uploadLinkEditText = (EditText) this.findViewById(R.id.upload_link);
 		uploadSouceEditText = (EditText) this.findViewById(R.id.upload_source);
 		uploadWidthEditText = (EditText) this.findViewById(R.id.upload_width);
+		laText = (EditText) this.findViewById(R.id.location_latitude);
+		loText = (EditText) this.findViewById(R.id.location_longitude);
 
 		init();
 
@@ -76,6 +78,11 @@ public class MainActivity extends Activity {
 				upload_width = uploadWidthEditText.getText().toString();
 				settingsHelper.setString("upload_width", upload_width);
 
+				settingsHelper.setString("latitude", laText.getText()
+						.toString());
+				settingsHelper.setString("longitude", loText.getText()
+						.toString());
+
 				Toast.makeText(context, R.string.toast, Toast.LENGTH_LONG)
 						.show();
 			}
@@ -91,8 +98,8 @@ public class MainActivity extends Activity {
 						.getLaunchIntentForPackage("com.tencent.mm");
 				if (LaunchIntent == null) {
 					FlurryAgent.logEvent("Launch_fail");
-					Toast.makeText(context, R.string.wechatnotfound, Toast.LENGTH_LONG)
-							.show();
+					Toast.makeText(context, R.string.wechatnotfound,
+							Toast.LENGTH_LONG).show();
 				} else {
 					FlurryAgent.logEvent("Launch_wechat");
 					startActivity(LaunchIntent);
@@ -124,6 +131,8 @@ public class MainActivity extends Activity {
 		uploadLinkEditText.setText(upload_link);
 		uploadSouceEditText.setText(upload_source);
 		uploadWidthEditText.setText(upload_width);
+		laText.setText(settingsHelper.getString("latitude", ""));
+		loText.setText(settingsHelper.getString("longitude", ""));
 	}
 
 	@Override

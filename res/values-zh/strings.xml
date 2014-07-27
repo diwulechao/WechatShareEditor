@@ -13,8 +13,10 @@
     <string name="upload_source">来源</string>
     <string name="confirm">保存</string>
     <string name="toast">已保存，请进入微信进行实际转发操作，程序不会直接帮你发送</string>
-	<string name="launch_wechat">启动微信</string>
-	<string name="feedback">--作者:Lechao Diwu 仅供学习参考\n意见反馈: diwulechao@163.com</string>
-	<string name="wechatnotfound">无法启动微信，请检查是否安装</string>
-	
+    <string name="launch_wechat">启动微信</string>
+    <string name="feedback">--作者:Lechao Diwu 仅供学习参考\n意见反馈: diwulechao@163.com</string>
+    <string name="wechatnotfound">无法启动微信，请检查是否安装</string>
+    <string name="location_latitude">纬度（实数）</string>
+    <string name="location_longitude">经度（实数）</string>
+	<string name="location_hint">发表朋友圈时请关闭GPS</string>
 </resources>

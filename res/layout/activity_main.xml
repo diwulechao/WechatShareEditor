@@ -56,7 +56,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal" >
+                android:orientation="horizontal"
+                android:visibility="gone" >
 
                 <TextView
                     android:layout_width="@dimen/tip_width"
@@ -74,7 +75,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal" >
+                android:orientation="horizontal"
+                android:visibility="gone" >
 
                 <TextView
                     android:layout_width="@dimen/tip_width"
@@ -161,6 +163,44 @@
                     android:layout_height="wrap_content"
                     android:hint="@string/hint"
                     android:inputType="number"
+                    android:textSize="@dimen/edit_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="@dimen/tip_width"
+                    android:layout_height="wrap_content"
+                    android:text="@string/location_longitude" />
+
+                <EditText
+                    android:id="@+id/location_longitude"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/location_hint"
+                    android:inputType="number|numberSigned|numberDecimal"
+                    android:textSize="@dimen/edit_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="@dimen/tip_width"
+                    android:layout_height="wrap_content"
+                    android:text="@string/location_latitude" />
+
+                <EditText
+                    android:id="@+id/location_latitude"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/location_hint"
+                    android:inputType="number|numberSigned|numberDecimal"
                     android:textSize="@dimen/edit_text_size" />
             </LinearLayout>
 
